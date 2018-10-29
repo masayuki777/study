@@ -3,8 +3,8 @@ import java.util.ArrayList;
 public class EmployeeList implements Aggregate {
 	private ArrayList<Employee> employees;
 
-	public EmployeeList(int initialsiza) {
-		this.employees = new ArrayList<>(initialsiza);
+	public EmployeeList(int initialsize) {
+		this.employees = new ArrayList<>(initialsize);
 	}
 
 	public Employee getEmployeeAt(int index) {
