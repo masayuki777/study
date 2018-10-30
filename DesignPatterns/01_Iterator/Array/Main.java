@@ -8,8 +8,7 @@ public class Main {
 		Iterator it = employeeList.iterator();
 		while (it.hasNext()) {
 			Employee employee = (Employee) it.next();
-			System.out.print(employee.getName());
-			System.out.println(":" + employee.getEmployeeCode());
+			System.out.println(employee.getName() + ":" + employee.getEmployeeCode());
 		}
 	}
 }
