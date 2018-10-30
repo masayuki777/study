@@ -16,8 +16,8 @@ public class EmployeeListIterator implements Iterator {
 	}
 
 	public Object next() {
-		Employee book = employeeList.getEmployeeAt(index);
+		Employee employee = employeeList.getEmployeeAt(index);
 		index++;
-		return book;
+		return employee;
 	}
 }
