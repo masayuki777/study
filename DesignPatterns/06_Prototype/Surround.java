@@ -8,6 +8,7 @@ public class Surround implements Product {
 	}
 
 	// 1. displayメソッドの実装
+	@Override
 	public void display(String s) {
 		int length = s.getBytes().length;
 		for (int i = 0; i < length + 4; i++) {
@@ -22,6 +23,7 @@ public class Surround implements Product {
 	}
 
 	// 2. createCloneメソッドの実装
+	@Override
 	public Product createClone() {
 		Product p = null;
 		try {

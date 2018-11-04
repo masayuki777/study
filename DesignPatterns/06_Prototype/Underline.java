@@ -8,6 +8,7 @@ public class Underline implements Product {
 	}
 
 	// 1. displayメソッドの実装
+	@Override
 	public void display(String s) {
 		int length = s.getBytes().length;
 		System.out.println("\"" + s + "\"");
@@ -19,6 +20,7 @@ public class Underline implements Product {
 	}
 
 	// 2. createCloneメソッドの実装
+	@Override
 	public Product createClone() {
 		Product p = null;
 		try {
