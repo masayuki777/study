@@ -2,7 +2,7 @@ interface Foo {// インタフェース
 	void methodA();// 抽象メソッド
 }
 
-public class Sample3 {
+public class Sample3 {// 実行クラス
 	public static void main(String[] args) {
 		new Foo() {// 変数宣言なしで匿名クラスでの実装
 			@Override

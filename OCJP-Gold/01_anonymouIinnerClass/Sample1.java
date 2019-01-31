@@ -9,7 +9,7 @@ class FooImple implements Foo {// 実装クラス
 	}
 }
 
-public class Sample1 {
+public class Sample1 {// 実行クラス
 	public static void main(String[] args) {
 
 		Foo f = new FooImple();// 実装クラスを生成
