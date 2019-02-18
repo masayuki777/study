@@ -21,7 +21,7 @@ public abstract class Responsible {
 			done(trouble);
 		} else if (next != null) {// トラブルが解決できなかったが次のたらい回しの先が設定されている場合
 			next.support(trouble);
-		} else {// タラブルが解決できず、次のたらい回しの先も設定されていない場合
+		} else {// トラブルが解決できず、次のたらい回しの先も設定されていない場合
 			fail(trouble);
 		}
 	}
