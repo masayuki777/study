@@ -1,0 +1,6 @@
+#name=age
+Tanaka_Tarou=25
+Hoge_Hogeko=10
+Yamada_Hanako=30
+Neko_Nekota=50
+Foo_Footarou=80
